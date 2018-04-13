@@ -65,7 +65,7 @@ module ActiveRecord
 
   module Precount
     module PreloaderExtension
-      def preloader_for(reflection, owners, rhs_klass)
+      def preloader_for(reflection, owners)
         preloader = super
         return preloader if preloader
 
